@@ -19,7 +19,7 @@ public class JokeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.joke, null);
 
-        //jsdfvdh;
+        //45678452
         return view;
     }
 }
