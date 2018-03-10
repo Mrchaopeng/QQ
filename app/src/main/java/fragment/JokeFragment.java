@@ -20,6 +20,7 @@ public class JokeFragment extends Fragment {
         View view = inflater.inflate(R.layout.joke, null);
 
         //789789
+        //fsafsfas
         return view;
     }
 }
