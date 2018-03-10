@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/tools"
     android:orientation="vertical">
     <com.stx.xhb.xbanner.XBanner
         android:id="@+id/banner"
@@ -13,4 +14,47 @@
         app:pointsPosition="RIGHT"
         app:tipTextColor="#FFFFFFFF"
         app:tipTextSize="16.0sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/sdv"
+            fresco:roundAsCircle="true"
+            fresco:placeholderImage="@drawable/sliding_touxiang"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:text="天蝎喝牛奶"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sj"
+                android:text="2018-03-09"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:text="天气美美的,很清爽"
+            />
+
+
+
+
+    </LinearLayout>
+
 </LinearLayout>
